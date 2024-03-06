@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+     
+    body {
+        display: flex;
+        flex-flow: column wrap;
+        display: grid;
+        grid-template-areas:
+        "top-section"
+        "bottom-section"
+        
+        ;
+    }
+
+    .left-section {
+        grid-area: top-section;
+        position: static;
+        width: 100%;
+    }
+
+    .right-section {
+        grid-area: bottom-section;
+        position: static;
+        margin-top: 5em;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .right-section p {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .phone-shape {
+        width: 70%;
+        min-height: 70%;
+    }
+
+    .background {
+        left: -50%;
+    }
+
+  
+
+
+}
+
